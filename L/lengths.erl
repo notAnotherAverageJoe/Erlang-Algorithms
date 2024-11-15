@@ -1,5 +1,5 @@
 -module(lengths).
--author(Joe).
+-author("Joe.S").
 -export([start/0, list_length/1, list_length/2]).
 
 list_length(L) ->
