@@ -8,8 +8,8 @@ fibo(1) ->
 fibo(N) when N > 1 ->
     fibo(N - 1) + fibo(N - 2).
 
-3 > c(fibo).
-{ok,fibo}
-4> fibo:fibo(7).
-13
-5>
+% 3 > c(fibo).
+% {ok,fibo}
+% 4> fibo:fibo(7).
+% 13
+% 5>
